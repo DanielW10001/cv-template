@@ -1,0 +1,59 @@
+% !TEX program = xelatex
+
+\documentclass{resume_cn}
+
+\pagenumbering{gobble} % Suppress displaying page number
+
+% Suppress Header
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\renewcommand{\headrulewidth}{0mm}
+\renewcommand{\footrulewidth}{0mm}
+
+\begin{document}
+
+\centerline{\Huge{姓名}}
+\vspace{1.25ex}
+
+\centerline{\sffamily\large{
+    电话\textperiodcentered
+    邮箱\textperiodcentered
+    单位
+}}
+\vspace{1.5ex}
+
+\section{能力}
+    \subsection{领域}
+    \begin{itemize}
+        \item 能力
+    \end{itemize}
+\section{教育}
+    \subsection{单位}
+        阶段 \hfill 时间
+
+        位置
+
+        \subsubsection{奖项与成就:}
+        \begin{itemize}
+            \item 级别
+            \begin{itemize}
+                \item 成就
+            \end{itemize}
+        \end{itemize}
+
+\section{专业外经历}
+    \subsection{全国青少年高校科学营}
+        类别 \hfill 时间
+
+        机构
+
+        位置
+
+        \subsubsection{奖项与成就:}
+        \begin{itemize}
+            \item 成就
+        \end{itemize}
+\end{document}
